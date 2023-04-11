@@ -8,7 +8,7 @@ tg.MainButton.color = "#FF00FF";
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click", function(){
-    var seltheme = document.getElementById(“selcolor”).value
+    var seltheme = document.getElementById(“seelctID”).value
     tg.MainButton.setText("ok");
     tg.MainButton.show();
     tg.sendData(seltheme, "время");
