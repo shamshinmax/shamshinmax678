@@ -7,7 +7,7 @@ tg.MainButton.color = "#FF00FF";
 
 let btn = document.getElementById("btn");
 
-var seltheme = document.getElementById("selectID").text;
+var seltheme = document.getElementById("selectID");
 console.log(seltheme)
 btn.addEventListener("click", function(){
     
