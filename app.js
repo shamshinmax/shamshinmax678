@@ -21,5 +21,5 @@ btn.addEventListener("click", function(){
     
     tg.MainButton.setText("ok");
     tg.MainButton.show();
-    tg.sendData([time,place]);
+    tg.sendData(place);
 });
