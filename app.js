@@ -7,7 +7,7 @@ tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#FF00FF";
 
 let btn = document.getElementById("btn");
-var time = 1;
+var time = 0;
 
 startTime.addEventListener("input", () => {
     time = startTime.value;
