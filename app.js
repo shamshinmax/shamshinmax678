@@ -10,7 +10,7 @@ const times = document.getElementById("startTime");
 var place = document.getElementById("selection").value;
 
 var time = 0;
-
+console.log("hi");
 
 startTime.addEventListener("input", () => {
     time = startTime.value;
