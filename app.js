@@ -7,7 +7,7 @@ tg.MainButton.color = "#FF00FF";
 
 let btn = document.getElementById("btn");
 const times = document.getElementById("startTime");
-let place = document.getElementById("selection").value;
+var place = document.getElementById("selection").value;
 
 var time = 0;
 
