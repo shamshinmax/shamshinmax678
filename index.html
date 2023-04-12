@@ -12,11 +12,14 @@
 		<div class="inner">
 			<div class="item">
 				<p>Запись Random Coffee1</p>
-				   <select id="selectID">
-      					<option value=”1”>12.00</option>
-      					<option value=”2”>13.00</option>
-      					<option value=”2”>14.00</option>
-      					</select><!--var seltheme = document.getElementById(“selcolor”).value;-->
+					<form>
+  						<label for="startTime">Start time: </label>
+  						<input type="time" id="startTime" />
+  						<p>
+    							Value of the <code>time</code> input:
+    							<code> "<span id="value">n/a</span>"</code>.
+  						</p>
+					</form>
 				<button class="btn" id="btn">Отправить</button>
 			</div>
 		</div>
