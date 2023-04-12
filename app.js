@@ -1,6 +1,5 @@
 const times = document.getElementById("startTime");
 let tg = window.Telegram.WebApp;
-console.log(times);
 tg.expand();
 
 tg.MainButton.textColor = "#FFFFFF";
