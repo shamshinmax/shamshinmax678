@@ -38,3 +38,21 @@ body {
 .btn:hover {
 	background: whitesmoke;
 }
+select {
+      width: 140px;
+      height: 35px;
+      padding: 4px;
+      border-radius:4px;
+      border: none;
+      outline: none;
+      display: inline-block;
+      -webkit-appearance:none;
+      -moz-appearance: none;
+      appearance: none;
+      cursor: pointer;
+}
+label {
+      position: relative;
+}
+
+
